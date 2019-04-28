@@ -1,0 +1,39 @@
+
+
+button {
+          color: darkviolet;  
+          
+      }
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    body {
+      margin: 5%;
+      padding: 5%;
+      }
+      img {
+        margin: .1%;
+        padding: .1%;
+        } 
+     
+      footer{
+        background:rgb(8, 8, 8);
+    }
+      
+      
+      nav ul li {
+       
+        display: inline;
+        text-align: left;
+          list-style-type: none;
+          padding: 1%;
+          margin: 1%;
+      }
+  }
+  
+  .footer{
+    grid-area:footer; 
+    background-color: grey; 
+    
+}

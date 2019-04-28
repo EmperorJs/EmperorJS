@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<header>   
+    <title>Movie Express</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</header>
+  <body style="background-image:url('https://cnet3.cbsistatic.com/img/xLgPeuq6CW9A2N2V2kKmhMT6h2o=/1092x0/2019/03/14/dd4d8d9c-5f16-4f6b-a7d8-65a00d095c2c/avengers-endgame-poster-square-crop.jpg');"style="width:1850px;height:700px;"></body>
+  <style>
+  .fakeimg {
+    height: auto;
+    background: aliceblue;
+  } 
+  .fakebg {
+    height: auto;
+    background: rgb(10, 10, 10);
+  } 
+  button {
+          color: darkviolet;  
+          
+      }
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    body {
+      margin: 5%;
+      padding: 5%;
+      }
+      img {
+        margin: .1%;
+        padding: .1%;
+        }     
+      footer{
+        background:rgb(76, 72, 72);
+    }        
+      nav ul li {      
+        display: inline;
+        text-align: left;
+          list-style-type: none;
+          padding: 1%;
+          margin: 1%;
+      }
+  } 
+  .footer{
+    grid-area:footer; 
+    background-color: rgb(184, 177, 177);     
+}
+  </style>         		 
+		<!-- Static navbar with JS Buttons, also includes dropdown. Inline is automatic in JS Buttons -->
+  <nav class="navbar navbar-default">
+    	<!-- Container-fluid is being used to implement the Grid -->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">     
+                <li  button type="button" class="btn btn-primary"><img src="https://media.giphy.com/media/BmmfETghGOPrW/giphy.gif" style="width:60px;height:40px;"></button></li>
+              <li  button type="button" class="btn btn-primary"> <span class="spinner-border spinner-border-sm">Home</span></button></li>
+              <li button type="button" class="btn btn-primary">About</button></li>
+              <li button type="#button" class="btn btn-primary">Check our Movie List</button></li>
+              <li button type="button" class="btn btn-primary">Contact</button></li>  
+              
+                    <div id="navbar1" class="col-md-6">
+                    <li class="dropdown">
+                        <a1 href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Check your taste <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Adventure</a></li>
+                          <li><a href="#">Horror</a></li>
+                          <li><a href="#">Others</a></li>               
+                        </ul>
+                      </div> 
+                    </li>                    
+                  </div>  
+            </ul>
+          </div>         
+ </nav>
+
+      <img src="https://townsquare.media/site/622/files/2011/11/yahooavengersbannerbig.jpg" style="width:1200px;height:310px;" border:0>
+      <div class="jumbotron">
+      <div class="container">
+         <span class="badge badge-light">
+            <div style="color:rgb(5, 15, 156);">
+              <h1>Welcome to Movie Express Sweet Love! I finally got it to work. You motivate my love you</h1>
+            </div>
+          </span>
+      </div>
+      <div class="row" style="color:rgb(5, 15, 156);">
+          <div class="col-md-6"> <div class="fakebg"> <div class="img-circle person" alt="Random Name">
+            <h2>Shazam! 
+              Release Date: April 5, 2019
+              Director: David F. Sandberg 
+              The best thing one can say about Shazam! is that, following on the fins of the wonderfully extravagant and amazingly stupid Aquaman, the latest DC movie is one more sign to assure the proletariat that the imprint has permanently dislodged its head from the asshole of Zack Snyder’s Murderverse. </h2>
+            </div>
+          </div>  
+            </div>       
+        <div  class="col-md-6"> <div class="fakebg"> <div class="img-circle person" alt="Random Name">
+          <h2>How to Train Your Dragon: The Hidden World 
+              Release Date: February 22, 2019
+              Director: Dean DeBlois
+              While every studio is tripping over themselves to kick-start the next blockbuster franchise before the first film is even cast, the How to Train Your Dragon crew has been building an engaging family fantasy/adventure trilogy (loosely based on the novels of Cressida Cowell) over the last ten years. </h2>                  
+          </div>  
+          </div>
+      </div>
+    </div> 
+      </div>    
+        
+        
+ <div class="#button" ><div class="fakebg">
+      <div class="container">
+            <h3 class="text-center">Check our Movie List</h3>
+            	<!--Carousel slide is used to have automatic scrolling of 3 pictures-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2" ></li>            
+            </ol>       
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-caption">              
+                    </p>
+                  </div>
+              <div class="item active">
+                <img class="img-responsive" src="Shazam.jpg"  alt="Chania" > 
+                <div class="carousel-caption">
+                    <p>First Feature</p>
+                  </div>                
+              </div>
+          
+              <div class="item">
+                <img class="img-responsive" src="How to train.jpg" >
+                <div class="carousel-caption">
+                  <p>Second Feature </p>
+                </div> 
+              </div>
+           
+              <div class="item">
+                <img class="img-responsive" src="https://media.giphy.com/media/PpeGK6edBWAxi/giphy.gif"  >                            
+              <div class="carousel-caption">
+                <p>Coming Feature</p>
+              </div> 
+            </div>
+              
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div></div>
+      </div>      
+ </div>    
+                <div class="Sections" >
+                    <div class="col-sm-4">
+                      <!-- 16:9 -->
+                      <span class="badge badge-danger" style="color:rgb(5, 15, 156);"><h4>Today! we present</h4></style></span>
+                      
+                      <div class="embed-responsive embed-responsive-4by3">                   
+                      <iframe class="embed-responsive-item" src="https://v.youku.com/v_show/id_XNDEwNTMzMzM2OA==.html?spm=a2ha1.12528442.m_4424_c_11054_1.d_3&s=abd8da2f085b4b659233&scm=20140719.rcmd.4424.show_abd8da2f085b4b659233"></iframe>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                            <!-- 4:3 -->
+                            <span class="badge badge-danger" style="color:rgb(5, 15, 156);"><h4>Preview video before the movie</h4></style></span>
+                            
+                            <div class="embed-responsive embed-responsive-4by3">
+                              <iframe class="embed-responsive-item" src="https://v.youku.com/v_show/id_XMTYxOTEzOTYyNA==.html"></iframe>
+                            </div>
+                          </div>
+                        </div>
+                    <div class="col-sm-4">
+                      <!-- 4:3 -->
+                      <span class="badge badge-danger" style="color:rgb(5, 15, 156);"><h4>Preview video before the movie</h4></style></span>
+                      
+                      <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://v.youku.com/v_show/id_XNDEzNTE1MDE0OA==.html?spm=a2h0k.11417342.soresults.dposter"></iframe>
+                      </div>               
+                   </div>
+                  </div>
+
+              <footer>
+                  <h3> This is the Home page @ 2019 powered by EmperorJS.INC</h3> 
+                  <p><a href="#top">Top</a></p>
+              </footer>       
+  </body>
+</html>
